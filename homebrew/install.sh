@@ -31,6 +31,7 @@ brew install tmux
 brew install git
 brew install speedtest_cli
 brew install openssl
+brew install pidcat
 brew link openssl --force
 
 brew cleanup

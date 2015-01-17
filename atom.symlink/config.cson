@@ -1,35 +1,20 @@
 'global':
-  'editor':
-    'showIndentGuide': true
-    'fontFamily': 'Menlo'
-    'fontSize': 15
-  'core':
-    'ignoredNames': [
-      '.bundle'
-      '.git'
-      'log'
-      'repositories'
-      'tmp'
-      'vendor'
-    ]
-    'themes': [
-      'unity-ui'
-      'glacier-syntax'
-    ]
-    'hideGitIgnoredFiles': true
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
-    ]
-  'spell-check':
-    'grammars': [
-      'text.plain'
-      'source.gfm'
-      'text.git-commit'
-    ]
+  'exception-reporting':
+    'userId': 'd698a89d-89b9-c20b-b232-669c52828d46'
+  'release-notes':
+    'viewedVersion': '0.95.0'
   'welcome':
     'showOnStartup': false
-  'release-notes':
-    'viewedVersion': '0.89.0'
-  'go-plus': {}
+  'metrics':
+    'userId': '865712ba16f79f86ee498dd9d920565180eb4284'
+  'markdown-preview':
+    'breakOnSingleNewline': true
+  'remember-window':
+    'y': 203
+    'width': 958
+    'height': 877
+    'x': 590
+  'autosave':
+    'enabled': true
+  'autocomplete-plus':
+    'enableAutoActivation': false
