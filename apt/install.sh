@@ -6,6 +6,7 @@ fi
 
 sudo mkdir /var/lib/gems
 sudo chmod 777 /var/lib/gems
+sudo apt-get install -y ant openjdk-8-jdk
 sudo apt-get install -y python-pip
 sudo apt-get install -y zsh
 sudo chmod 777 /usr/local/lib/python2.7/
