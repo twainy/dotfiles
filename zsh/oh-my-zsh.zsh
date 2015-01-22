@@ -47,7 +47,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(adb ant bower brew bundler composer cp copydir copyfile web-search vim-interaction vagrant tmux tmuxinator golang git)
+plugins=(ssh-agent adb ant bower brew bundler composer cp copydir copyfile web-search vim-interaction vagrant tmux tmuxinator golang git)
 
 # User configuration
 
