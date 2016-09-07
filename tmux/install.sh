@@ -1,5 +1,5 @@
 #!/bin/sh
-if ! [ -e $HOME/.tmuxinator ]
-then
-	ln -s tmuxinator $HOME/.tmuxinator
-fi
+cd `dirname $0`
+rm -rf $HOME/.tmuxinator
+ln -s tmuxinator $HOME/.tmuxinator
+mv tmux.conf $HOME/.tmux.conf
