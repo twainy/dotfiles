@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "y" | sudo apt-get install zsh
+
 if [ ! -e $HOME/.oh-my-zsh ]
 then
 	echo "  Installing oh-my-zsh for you."
